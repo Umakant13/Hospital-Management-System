@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Information</title>
+    <style>
+        body {
+            display: block; /* Change to block to stack elements */
+            margin: 0; /* Remove default margin */
+            background-color: #f0f0f0; /* Light background for the body */
+            font-family: Arial, sans-serif; /* Font style for the body */
+        }
+
+        .navbar {
+            background-color: #343a40; /* Dark background for the navbar */
+            padding: 10px; /* Padding for the navbar */
+        }
+
+        .navbar-brand {
+            color: white; /* Color for the brand name */
+            font-size: 24px; /* Font size for the brand name */
+        }
+
+        .navbar-nav .nav-link {
+            color: white; /* Color for nav links */
+        }
+
+        .container {
+            display: flex; /* Use flexbox to center the content */
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center horizontally */
+            background-color: #f9f9f9; /* Light background for the container */
+            border: 1px solid #ddd; /* Light border */
+            border-radius: 8px; /* Rounded corners */
+            padding: 40px; /* Increase space inside the container */
+            margin: 20px auto; /* Center container and space outside */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            width: 500px; /* Set a specific width for the container */
+        }
+
+        h1 {
+            color: #2c3e50; /* Heading color */
+            margin-bottom: 30px; /* Space below the heading */
+            text-align: center; /* Center the heading */
+            font-size: 32px; /* Increased font size for the heading */
+            font-weight: bold; /* Make the heading bold */
+        }
+
+        .field {
+            display: flex; /* Use flexbox for each field */
+            justify-content: space-between; /* Space out label and value */
+            margin-bottom: 15px; /* Space between fields */
+            width: 100%; /* Full width for fields */
+        }
+
+        label {
+            font-size: 18px; /* Larger font size for labels */
+            color: #333; /* Text color */
+            flex: 1; /* Allow labels to grow */
+        }
+
+        b {
+            font-size: 18px; /* Larger font size for bold text */
+            color: #2c3e50; /* Darker color for the bold text */
+            flex: 1; /* Allow values to grow */
+            text-align: right; /* Align text to the right */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <a class="navbar-brand" href="#">SIDDHINATH HOSPITALS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLink="/docdash">Back</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+      
+    <div class="container">
+        <h1>Patient Information</h1>
+        <div class="field">
+            <label>ID :</label> <b>{{patient.id}}</b>
+        </div>
+        <div class="field">
+            <label>Name :</label> <b>{{patient.name}}</b>
+        </div>
+        <div class="field">
+            <label>Age :</label> <b>{{patient.age}}</b>
+        </div>
+        <div class="field">
+            <label>Blood Group :</label> <b>{{patient.blood}}</b>
+        </div>
+        <div class="field">
+            <label>Dose :</label> <b>{{patient.dose}}</b>
+        </div>
+        <div class="field">
+            <label>Fees :</label> <b>{{patient.fees}}</b>
+        </div>
+        <div class="field">
+            <label>Urgency :</label> <b>{{patient.urgency}}</b>
+        </div>
+    </div>
+</body>
+</html>

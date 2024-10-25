@@ -1,0 +1,60 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #f8f9fa !important;
+}
+
+.btn {
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.carousel-caption button {
+    opacity: 0.85;
+    transition: opacity 0.3s;
+}
+
+.carousel-caption button:hover {
+    opacity: 1;
+}
+
+/* Card Styling */
+.card-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.h-md-250 {
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+.border {
+    border: 2px solid #ddd !important;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+.navbar-toggler {
+    border: none; /* Remove border */
+}
+
+.collapse {
+    margin-top: 10px; /* Add space above the buttons */
+}
