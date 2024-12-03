@@ -47,4 +47,5 @@ MediCarePlus is a modern healthcare platform designed to enhance patient care, s
 We welcome contributions! Feel free to fork the repository and submit pull requests.
 
 ### License
-This project is licensed under the MIT License. See the LICENSE(https://github.com/Umakant13/Hospital-Management-System/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Umakant13/Hospital-Management-System/blob/master/LICENSE) for details.
+
