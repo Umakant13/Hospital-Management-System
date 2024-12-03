@@ -25,28 +25,26 @@ MediCarePlus is a modern healthcare platform designed to enhance patient care, s
 1. Clone the repository:
    ```bash
    git clone https://github.com/Umakant13/Hospital-Management-System.git
-Navigate to the frontend directory and install dependencies:
 
-bash
-Copy code
-cd FrontedForHospitalMgmtSystem
-npm install
-Configure the database in application.properties (backend) with your MySQL credentials.
+2. Navigate to the frontend directory and install dependencies:
+   ```bash
+   cd FrontedForHospitalMgmtSystem
+   npm install
 
-Start the backend server:
+3. Configure the database in application.properties (backend) with your MySQL credentials.
 
-bash
-Copy code
-mvn spring-boot:run
-Start the Angular development server:
+4. Start the backend server:
+   ```bash
+   mvn spring-boot:run
 
-bash
-Copy code
-ng serve
-Access the app at http://localhost:4200.
+5. Start the Angular development server:
+   ```bash
+   ng serve
+   
+6. Access the app at http://localhost:4200.
 
-Contributing
+### Contributing
 We welcome contributions! Feel free to fork the repository and submit pull requests.
 
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
